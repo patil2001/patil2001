@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=6DB33F&center=true&vCenter=true&width=500&height=50&lines=Buddhaprakash+Patil;Backend+Engineer;Java+%2B+Spring+Boot+Expert" alt="Typing SVG" />
+</p>
 # Hi, I'm Buddhaprakash Patil 👋
 
 I am a **Backend Engineer** specializing in Java, Spring Boot, and distributed systems. I design microservices built to remain correct under retries, concurrency, and partial failure—focusing heavily on idempotency, event-driven messaging, and resilient integrations.
@@ -10,11 +13,20 @@ I am a **Backend Engineer** specializing in Java, Spring Boot, and distributed s
 
 ## 🛠️ Tech Stack & Systems Expertise
 
-*   **Expert (Daily Use):** Java, Spring Boot, Spring Batch, REST API Design, Microservices, PostgreSQL, Redis
-*   **Proficient (Shipped to Production):** Kafka, AWS (S3, EC2, SNS, SQS, IAM), Spring Security, Docker, Hibernate/JPA, JUnit, Mockito, Jenkins & GitHub Actions
-*   **Familiar:** Kubernetes, Snowflake, MongoDB, GraphQL, Python
+### Languages & Frameworks
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
----
+### Databases & Caching
+![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+### DevOps & Tools
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-%23000000.svg?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232088FF.svg?style=for-the-badge&logo=github-actions&logoColor=white)
 
 ## 🚀 Key Architectural Case Studies & Projects
 
