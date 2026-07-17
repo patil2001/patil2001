@@ -1,31 +1,39 @@
 # Hi, I'm Buddhaprakash Patil 👋
 
-I am a **Backend Developer** with over a year of professional experience specializing in building scalable microservices, optimizing database performance, and designing robust REST APIs.
+I am a **Backend Engineer** specializing in Java, Spring Boot, and distributed systems. I design microservices built to remain correct under retries, concurrency, and partial failure—focusing heavily on idempotency, event-driven messaging, and resilient integrations.
 
-- 🔭 I’m currently working as a **Software Engineering Associate at Amdocs**, building enterprise platform features for T-Mobile.
-- ⚡ In my recent work, I optimized batch ingestion performance by **30%** and cut API latency by **25%** using Redis caching.
-- 🌱 I’m continuously sharpening my skills in Cloud technologies, CI/CD pipelines, and system design.
-
-## 🛠️ Tech Stack & Tools
-
-- **Languages:** Java, C++, Python
-- **Frameworks & Libraries:** Spring Boot, REST APIs, JWT, Swagger
-- **Databases & Caching:** Redis, MSSQL, MySQL, PostgreSQL
-- **DevOps & Tools:** Docker, Jenkins, Git, Jira, Kafka, CI/CD Pipelines
-
-## 🚀 Featured Projects
-
-### 📱 Heart Stroke Prediction App
-*Python, Machine Learning*
-- Built a mobile application that uses machine learning models to predict heart stroke risks based on live user inference.
-- Handled end-to-end data preprocessing and feature selection.
-
-### 🏦 Banking Console App
-*C++*
-- Developed a CLI-based simulation system handling core banking operations, interest calculations, and persistent file handling.
+- 🔭 Currently a **Software Developer at Amdocs**, owning production microservices and driving batch ETL performance optimization for T-Mobile.
+- ⚡ **Core Impact:** Boosted transaction reliability by **20%**, optimized Redis session token-storage by **35%**, and scaled concurrent transfers to eliminate lost updates.
+- 💬 Ask me about: Defending against double-spends, transactional outbox patterns, or tuning SQL batch windows.
 
 ---
 
-📫 **How to reach me:** 
-- Connect with me on [LinkedIn](PASTE_YOUR_LINKEDIN_URL_HERE)
-- Email: patil.2001@yahoo.com
+## 🛠️ Tech Stack & Systems Expertise
+
+*   **Expert (Daily Use):** Java, Spring Boot, Spring Batch, REST API Design, Microservices, PostgreSQL, Redis
+*   **Proficient (Shipped to Production):** Kafka, AWS (S3, EC2, SNS, SQS, IAM), Spring Security, Docker, Hibernate/JPA, JUnit, Mockito, Jenkins & GitHub Actions
+*   **Familiar:** Kubernetes, Snowflake, MongoDB, GraphQL, Python
+
+---
+
+## 🚀 Key Architectural Case Studies & Projects
+
+### 💳 [PayFlow | Microservices Wallet Backend](https://github.com/patil2001/payflow)
+*Java 21 • Spring Boot 3 • JWT • JPA • Event-Driven*
+A digital wallet backend built to handle critical payment system failure modes:
+*   **Concurrency Control:** Implemented optimistic locking (`@Version`) with bounded retry loops executing outside the Spring transaction proxy to prevent lost updates under low contention.
+*   **Double-Spend Prevention:** Enforced strict idempotency keys driven by database unique constraints to safely stop concurrent duplicate requests.
+*   **Reliable Messaging:** Leveraged a Transactional Outbox pattern paired with at-least-once relay and consumer deduplication to guarantee eventually consistent processing.
+
+### 📊 Spring Batch ETL Optimization
+*Spring Batch • SQL Tuning • Table Partitioning • Amdocs (T-Mobile)*
+*   **Problem:** Peak run times were blowing past the designated batch windows due to read-heavy bottlenecks.
+*   **Solution:** Profiled operations and introduced SQL tuning alongside database table partitioning to enable independent slices to run in parallel steps without write contention. Cut peak runtimes significantly.
+
+---
+
+## 📬 Connect With Me
+
+*   **Portfolio & Deep Dives:** [patil2001.github.io/portfolio](https://patil2001.github.io/portfolio/)
+*   **LinkedIn:** [linkedin.com/in/buddhapp](https://www.linkedin.com/in/buddhapp)
+*   **Email:** patilbuddhaprakash@gmail.com
